@@ -69,3 +69,9 @@ iex -S mix
 query = from x in "some_users", where: x.sexo == "F", select: x.nombre
 Users.Repo.all(query)
 ```
+# Proyecto básico "univ"
+
+* Este proyecto conecta Ecto con una base de datos previa y no implementa Phoenix.
+* Cuando agregas el modelo en lib/schemas/univ.ex no importa cuantas columnas tenga la base de datos,
+  en el archivo de configuración sólo llamas las columnas que necesitas para Ecto.
+* El esquema debe tener básicamente Ecto.Repo, Application, Config y Ecto.Schema
