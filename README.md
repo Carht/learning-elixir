@@ -1,5 +1,5 @@
-# learning-erlang
-Learning Erlang --this repository is only for practices--
+# learning-elixir
+Learning Elixir/Erlang --this repository is only for practices--
 
 
 # Usar Ecto con una base de datos previamente creada.
